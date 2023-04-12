@@ -3,22 +3,36 @@
 .wireframe {
   display: flex;
   flex-wrap: wrap;
-  
+  margin-top: 100px;
+  margin-left: 100px;
 }
 
-.button {
-  color: #d8d9db;
+#display {
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  padding-top: 5px;
+  padding-right: 15px;
+  text-align: right;
+  width: 400px;
+  height: 75px;
+}
+
+#sqr {
+  background-color: #d8d9db;
 }
 
 .top-buttons {
   display: flex;
   flex-direction: row;
-  color: #d8d9db;
+  height: 75px;
 }
 
 #clear {
+  background-color: #d8d9db;
   width: 200px;
   text-align: center;
+  padding-top: 15px;
   border-style: solid;
   border: 1px solid black;
 }
@@ -26,30 +40,79 @@
 #sqr {
   width: 100px;
   text-align: center;
+  padding-top: 15px;
  border: 1px solid black;
+}
+
+#sqr:hover {
+  background-color: #ebebeb;
+}
+
+#sqr:active {
+  background-color: #bbbcbe;
+}
+
+#zero:hover {
+  background-color: #ebebeb;
+}
+
+#zero:active {
+  background-color: #bbbcbe;
+}
+
+#clear:hover {
+  background-color: #ebebeb;
+}
+
+#clear:active {
+  background-color: #bbbcbe;
 }
 
 .sec-buttons {
   display:flex;
   flex-direction: row;
+  height: 75px;
 }
 
 .third-buttons {
   display: flex;
   flex-direction: row;
+  height: 75px;
 }
 
 .forth-buttons {
   display: flex;
   flex-direction: row;
+  height: 75px;
 }
 
 .fifth-buttons {
   display: flex;
   flex-direction: row;
+  height: 75px;
 }
 
 #zero {
+  background-color: #d8d9db;
+  text-align: center;
+  padding-top: 15px;
   width: 300px;
   border: 1px solid black
+  
+}
+
+#function {
+  background-color: #df974c;
+  text-align: center;
+  padding-top: 15px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+#function:hover {
+  background-color: #dfb07e;
+}
+
+#function:active {
+  background-color: #dd8d37;
 }
