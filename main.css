@@ -29,17 +29,6 @@
  border: 1px solid black;
 }
 
-#function {
-  --bs-btn-font-weight: 600;
-  --bs-btn-color: black;
-  --bs-btn-bg: #df974c;
-  --bs-btn-border-color: black;
-  --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: #dfb07e;
-  --bs-btn-active-bg: #dd8d37;
-  --btn-border-radius: 0px
-}
-
 .sec-buttons {
   display:flex;
   flex-direction: row;
@@ -58,4 +47,9 @@
 .fifth-buttons {
   display: flex;
   flex-direction: row;
+}
+
+#zero {
+  width: 300px;
+  border: 1px solid black
 }
