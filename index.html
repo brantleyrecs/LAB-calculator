@@ -12,36 +12,39 @@
 <body>
   <div class="wireframe">
     <div>
-      <div id="display">0</div>
+      <div class="output">
+        <div data-previous-operand class="previous-operand">123 +</div>
+        <div data-current-operand class="current-operand">456</div>
+      </div>
       <div class="top-buttons">
-          <div id="clear" display:inline-block;padding:1px 5px;"><button type="button" class="btn">C</button></div>
-          <div id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">&#8592;</button></div>
-          <div id="function" display:inline-block;padding:1px 5px;"><button type="button" class="btn">&divide;</button></div>
+          <div data-clear id="clear" display:inline-block;padding:1px 5px;"><button type="button" class="btn">C</button></div>
+          <div data-delete id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">&#8592;</button></div>
+          <div data-operation id="function" display:inline-block;padding:1px 5px;"><button type="button" class="btn">&divide;</button></div>
       </div>
       <div class="sec-buttons">
-        <div id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">7</button></div>
-        <div id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">8</button></div>
-      <div id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">9</button></div>
-      <div id="function" display:inline-block;padding:1px 5px;"><button type="button" class="btn">&times;</button></div>
+        <div data-number id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">7</button></div>
+        <div data-number id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">8</button></div>
+      <div data-number id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">9</button></div>
+      <div data-operation id="function" display:inline-block;padding:1px 5px;"><button type="button" class="btn">&times;</button></div>
       </div>
       <div class="third-buttons">
-        <div id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">4</button></div>
-        <div id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">5</button></div>
-        <div id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">6</button></div>
-        <div id="function" display:inline-block;padding:1px 5px;"><button type="button" class="btn">&minus;</button></div>
+        <div data-number id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">4</button></div>
+        <div data-number id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">5</button></div>
+        <div data-number id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">6</button></div>
+        <div data-operation id="function" display:inline-block;padding:1px 5px;"><button type="button" class="btn">&minus;</button></div>
       </div>
       <div class="forth-buttons">
-        <div id="sqr" display:inline-block;padding:1px 5px;"><button type="button"
+        <div data-number id="sqr" display:inline-block;padding:1px 5px;"><button type="button"
             class="btn">1</button></div>
-        <div id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">2</button></div>
-        <div id="sqr" display:inline-block;padding:1px 5px;"><button type="button"
+        <div data-number id="sqr" display:inline-block;padding:1px 5px;"><button type="button" class="btn">2</button></div>
+        <div data-number id="sqr" display:inline-block;padding:1px 5px;"><button type="button"
             class="btn">3</button></div>
-        <div id="function"><button type="button" class="btn">&plus;</button></div>
+        <div data-operation id="function"><button type="button" class="btn">&plus;</button></div>
       </div>
         <div class="fifth-buttons">
-          <div id="zero" display:inline-block;padding:1px 5px;"><button type="button"
+          <div data-number id="zero" display:inline-block;padding:1px 5px;"><button type="button"
               class="btn">0</button></div>
-          <div id="function"><button type="button" class="btn">&equals;</button></div>
+          <div data-equals id="function"><button type="button" class="btn">&equals;</button></div>
         </div>
     </div>
   </div>
